@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-noxu
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0042-tenant/tkrw-pr714-0075-0042-app/devfile-sample-noxu@sha256:62b2f99c156ea9262a53fbdc8132749dd346960d58abf8bce6d84d882fc5b701
         name: my-nodejs
         ports:
         - containerPort: 3001
